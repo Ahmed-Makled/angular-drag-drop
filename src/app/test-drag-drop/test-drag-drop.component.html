@@ -27,7 +27,7 @@
             <div class="card-body vert-scroll row" dragula="ITEMS" [(dragulaModel)]='ordersReady'>
 
               <div class="curd-width px-1" *ngFor="let order of ordersReady ; let i = index"
-                [class.nodrag]="order.Status==3">
+                >
                 <div class="card Order-cart my-2 font-12">
                   <div class="card-content">
                     <div class="card-header">
@@ -97,7 +97,7 @@
             <div class="card-body vert-scroll row " dragula="ITEMS" [(dragulaModel)]='ordersProgress'>
            
               <div class="curd-width px-1" *ngFor="let order of ordersProgress ; let i = index"
-                [class.nodrag]="order.Status==3">
+                >
                 <div class="card Order-cart my-2 font-12">
                   <div class="card-content">
                     <div class="card-header">
